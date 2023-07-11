@@ -30,27 +30,27 @@ public String index() {
 @RequestMapping("/doctor/1")
 @ResponseBody
 public String doctorOne() {
-	return "Lord Nele";
+	return "Peter Davison";
 }
 
 @RequestMapping("/doctor/2")
 @ResponseBody
 public String doctorTwo() {
-	return "Sir Aderlard";
+	return "Tom Baker";
 }
 
 
 @RequestMapping("/doctor/3")
 @ResponseBody
 public String doctorThree() {
-	return "Baron Ranald";
+	return "Matt Smith";
 }
 
 
 @RequestMapping("/doctor/4")
 @ResponseBody
 public String doctorFour() {
-	return "Emperor Gerboud";
+	return "David Tennant";
 }
 
 }
